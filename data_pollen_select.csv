@@ -1,0 +1,163 @@
+;Code;Parcel;Introduced_bee;Tree;Collection_date;Species;Nb_sample;Ranuculacea; Rosacea;Quercus;Crucifera;Salix;Other;Visited plant
+1;P1bA1;1;O. bicornis;apple;43580;O. bicornis;1;99.31034483;0.689655172;0;0;0;0;Ranuculacea
+2;P1bA10;1;O. bicornis;apple;43587;O. bicornis;10;100;0;0;0;0;0;Ranuculacea
+3;P1bA11;1;O. bicornis;apple;43587;O. bicornis;11;100;0;0;0;0;0;Ranuculacea
+4;P1bA12;1;O. bicornis;apple;43587;O. bicornis;12;0;100;0;0;0;0; Rosacea
+5;P1bA13;1;O. bicornis;apple;43587;O. bicornis;13;0;0;100;0;0;0;Quercus
+6;P1bA14;1;O. bicornis;apple;43587;O. cornuta;14;0;100;0;0;0;0; Rosacea
+7;P1bA15;1;O. bicornis;apple;43587;O. cornuta;15;10.90909091;85.45454545;0;0;3.636363636;0; Rosacea
+8;P1bA16;1;O. bicornis;apple;43587;O. cornuta;16;0;100;0;0;0;0; Rosacea
+9;P1bA17;1;O. bicornis;apple;43587;O. cornuta;17;0;100;0;0;0;0; Rosacea
+10;P1bA18;1;O. bicornis;apple;43587;O. cornuta;18;0;100;0;0;0;0; Rosacea
+11;P1bA19;1;O. bicornis;apple;43592;O. bicornis;19;99.18032787;0.819672131;0;0;0;0;Ranuculacea
+12;P1bA2;1;O. bicornis;apple;43580;O. bicornis;2;97.72727273;1.515151515;0;0;0;0.757575758;Ranuculacea
+13;P1bA20;1;O. bicornis;apple;43592;O. bicornis;20;1.739130435;1.739130435;96.52173913;0;0;0;Quercus
+14;P1bA21;1;O. bicornis;apple;43592;O. bicornis;21;99.34210526;0.657894737;0;0;0;0;Ranuculacea
+15;P1bA22;1;O. bicornis;apple;43592;O. cornuta;22;0;100;0;0;0;0; Rosacea
+16;P1bA23;1;O. bicornis;apple;43592;O. cornuta;23;0;85.43046358;0;13.90728477;0;0.662251656; Rosacea
+18;P1bA3;1;O. bicornis;apple;43580;O. bicornis;3;0;0;0.892857143;0;0;99.10714286;Other
+19;P1bA4;1;O. bicornis;apple;43580;O. cornuta;4;0;100;0;0;0;0; Rosacea
+20;P1bA5;1;O. bicornis;apple;43580;O. cornuta;5;0;100;0;0;0;0; Rosacea
+21;P1bA6;1;O. bicornis;apple;43580;O. cornuta;6;0;100;0;0;0;0; Rosacea
+22;P1bA7;1;O. bicornis;apple;43585;O. bicornis;7;0;0;100;0;0;0;Quercus
+23;P1bA8;1;O. bicornis;apple;43585;O. cornuta;8;0;100;0;0;0;0; Rosacea
+25;P1cA1;1;O. cornuta;apple;43574;O. cornuta;1;0;2.542372881;0;0;97.45762712;0;Salix
+26;P1cA10;1;O. cornuta;apple;43579;O. cornuta;10;0;85.61151079;0;0;2.158273381;12.23021583; Rosacea
+27;P1cA11;1;O. cornuta;apple;43579;O. cornuta;11;0;100;0;0;0;0; Rosacea
+28;P1cA2;1;O. cornuta;apple;43574;O. cornuta;2;0;99.39759036;0;0;0.602409639;0; Rosacea
+29;P1cA3;1;O. cornuta;apple;43574;O. cornuta;3;0;100;0;0;0;0; Rosacea
+30;P1cA4;1;O. cornuta;apple;43576;O. cornuta;4;0;100;0;0;0;0; Rosacea
+31;P1cA6;1;O. cornuta;apple;43576;O. cornuta;6;0;100;0;0;0;0; Rosacea
+32;P1cA7;1;O. cornuta;apple;43578;O. cornuta;7;0;12.61682243;0;0;87.38317757;0;Salix
+33;P1cA7;1;O. cornuta;apple;43578;O. cornuta;7;0;97.77777778;0;0;2.222222222;0; Rosacea
+34;P1cA8;1;O. cornuta;apple;43578;O. cornuta;8;0;100;0;0;0;0; Rosacea
+35;P1cA8;1;O. cornuta;apple;43578;O. cornuta;8;0;81.22270742;0;0;18.77729258;0; Rosacea
+36;P1cA9;1;O. cornuta;apple;43578;O. cornuta;9;0;100;0;0;0;0; Rosacea
+37;P1cA9;1;O. cornuta;apple;43578;O. cornuta;9;0;85.71428571;0;0;12.63736264;1.648351648; Rosacea
+38;P2cC1;2;O. cornuta;cherry;43564;O. cornuta;1;0;99.06542056;0;0;0;0.934579439; Rosacea
+39;P2cC10;2;O. cornuta;cherry;43576;O. cornuta;10;0;100;0;0;0;0; Rosacea
+40;P2cC12;2;O. cornuta;cherry;43580;O. cornuta;12;0;100;0;0;0;0; Rosacea
+41;P2cC13;2;O. cornuta;cherry;43580;O. cornuta;13;0;94.87179487;0;0;0;5.128205128; Rosacea
+42;P2cC14;2;O. cornuta;cherry;43580;O. cornuta;14;0;100;0;0;0;0; Rosacea
+43;P2cC2;2;O. cornuta;cherry;43570;O. cornuta;2;0;100;0;0;0;0; Rosacea
+46;P2cC6;2;O. cornuta;cherry;43574;O. cornuta;6;0;99.23076923;0;0.769230769;0;0; Rosacea
+47;P2cC7;2;O. cornuta;cherry;43574;O. cornuta;7;0;100;0;0;0;0; Rosacea
+48;P2cC8;2;O. cornuta;cherry;43574;O. cornuta;8;0;100;0;0;0;0; Rosacea
+49;P2cC9;2;O. cornuta;cherry;43576;O. cornuta;9;0;96.62921348;0;0;0;3.370786517; Rosacea
+50;P4bA1;4;O. bicornis;apple;43578;O. bicornis;1;0;0;100;0;0;0;Quercus
+51;P4bA10;4;O. bicornis;apple;43580;O. cornuta;10;0;100;0;0;0;0; Rosacea
+52;P4bA11;4;O. bicornis;apple;43580;O. cornuta;11;0;100;0;0;0;0; Rosacea
+53;P4bA12;4;O. bicornis;apple;43580;O. cornuta;12;0;100;0;0;0;0; Rosacea
+54;P4bA13;4;O. bicornis;apple;43587;O. bicornis;13;0;100;0;0;0;0; Rosacea
+55;P4bA14;4;O. bicornis;apple;43587;O. bicornis;14;0.877192982;0;99.12280702;0;0;0;Quercus
+56;P4bA15;4;O. bicornis;apple;43587;O. bicornis;15;0.833333333;99.16666667;0;0;0;0; Rosacea
+57;P4bA16;4;O. bicornis;apple;43587;O. bicornis;16;0;100;0;0;0;0; Rosacea
+58;P4bA17;4;O. bicornis;apple;43587;O. bicornis;17;0;100;0;0;0;0; Rosacea
+59;P4bA18;4;O. bicornis;apple;43587;O. cornuta;18;0;100;0;0;0;0; Rosacea
+60;P4bA19;4;O. bicornis;apple;43592;O. bicornis;19;0;100;0;0;0;0; Rosacea
+61;P4bA2;4;O. bicornis;apple;43578;O. bicornis;2;0;0;100;0;0;0;Quercus
+62;P4bA20;4;O. bicornis;apple;43592;O. bicornis;20;0;100;0;0;0;0; Rosacea
+63;P4bA21;4;O. bicornis;apple;43592;O. bicornis;21;0;100;0;0;0;0; Rosacea
+64;P4bA22;4;O. bicornis;apple;43585;O. bicornis;22;0;100;0;0;0;0; Rosacea
+65;P4bA23;4;O. bicornis;apple;43585;O. bicornis;23;0;100;0;0;0;0; Rosacea
+66;P4bA24;4;O. bicornis;apple;43585;O. cornuta;24;0;100;0;0;0;0; Rosacea
+67;P4bA3;4;O. bicornis;apple;43578;O. bicornis;3;0;0.552486188;99.44751381;0;0;0;Quercus
+68;P4bA4;4;O. bicornis;apple;43578;O. cornuta;4;0;100;0;0;0;0; Rosacea
+69;P4bA5;4;O. bicornis;apple;43578;O. cornuta;5;0;100;0;0;0;0; Rosacea
+70;P4bA6;4;O. bicornis;apple;43578;O. cornuta;6;0;97.76536313;0.558659218;0;1.675977654;0; Rosacea
+71;P4bA7;4;O. bicornis;apple;43580;O. bicornis;7;0;97.93103448;2.068965517;0;0;0; Rosacea
+72;P4bA8;4;O. bicornis;apple;43580;O. bicornis;8;0;10.71428571;89.28571429;0;0;0;Quercus
+74;P4cA1;4;O. cornuta;apple;43576;O. cornuta;1;0;100;0;0;0;0; Rosacea
+75;P4cA10;4;O. cornuta;apple;43587;O. cornuta;10;0;100;0;0;0;0; Rosacea
+76;P4cA11;4;O. cornuta;apple;43587;O. cornuta;11;0;100;0;0;0;0; Rosacea
+77;P4cA12;4;O. cornuta;apple;43587;O. cornuta;12;0;100;0;0;0;0; Rosacea
+78;P4cA13;4;O. cornuta;apple;43587;O. cornuta;13;0;100;0;0;0;0; Rosacea
+79;P4cA14;4;O. cornuta;apple;43592;O. cornuta;14;0;100;0;0;0;0; Rosacea
+80;P4cA15;4;O. cornuta;apple;43592;O. cornuta;15;0;100;0;0;0;0; Rosacea
+81;P4cA16;4;O. cornuta;apple;43592;O. cornuta;16;0;100;0;0;0;0; Rosacea
+82;P4cA2;4;O. cornuta;apple;43576;O. cornuta;2;0;84.34782609;2.608695652;0;0;13.04347826; Rosacea
+83;P4cA3;4;O. cornuta;apple;43576;O. cornuta;3;0;100;0;0;0;0; Rosacea
+84;P4cA4;4;O. cornuta;apple;43578;O. cornuta;4;0;5.434782609;0;0;94.56521739;0;Salix
+85;P4cA5;4;O. cornuta;apple;43578;O. cornuta;5;0;96.42857143;0;3.571428571;0;0; Rosacea
+86;P4cA6;4;O. cornuta;apple;43578;O. cornuta;6;0;100;0;0;0;0; Rosacea
+87;P4cA7;4;O. cornuta;apple;43585;O. cornuta;7;0;100;0;0;0;0; Rosacea
+88;P4cA8;4;O. cornuta;apple;43585;O. cornuta;8;0;100;0;0;0;0; Rosacea
+89;P4cA9;4;O. cornuta;apple;43587;O. cornuta;9;0;100;0;0;0;0; Rosacea
+90;P4conC4;3;control;cherry;43564;O. cornuta;4;0;89.83050847;0;0;10.16949153;0; Rosacea
+91;P4conC5;3;control;cherry;43564;O. cornuta;5;0;99.20634921;0;0;0.793650794;0; Rosacea
+92;P4conC6;3;control;cherry;43564;O. cornuta;6;0;99.09090909;0;0;0.909090909;0; Rosacea
+93;P4conC7;3;control;cherry;43574;O. cornuta;7;0;100;0;0;0;0; Rosacea
+94;P4conC8;3;control;cherry;43574;O. cornuta;8;0;100;0;0;0;0; Rosacea
+96;P5bC1;5;O. bicornis;cherry;43558;O. cornuta;1;0;100;0;0;0;0; Rosacea
+97;P5bC10;5;O. bicornis;cherry;43570;O. cornuta;10;0;87.00564972;0;0;12.99435028;0; Rosacea
+98;P5bC11;5;O. bicornis;cherry;43570;O. cornuta;11;0;100;0;0;0;0; Rosacea
+99;P5bC12;5;O. bicornis;cherry;43570;O. cornuta;12;0;99.43502825;0;0;0.564971751;0; Rosacea
+100;P5bC13;5;O. bicornis;cherry;43572;O. cornuta;13;0;0;0;0;100;0;Salix
+101;P5bC14;5;O. bicornis;cherry;43572;O. cornuta;14;0;90.41916168;0;0;9.580838323;0; Rosacea
+102;P5bC22;5;O. bicornis;cherry;43576;O. bicornis;22;0;0;0;0;2.23880597;97.76119403;Other
+103;P5bC23;5;O. bicornis;cherry;43576;O. bicornis;23;0;0;0;0;100;0;Salix
+104;P5bC24;5;O. bicornis;cherry;43576;O. bicornis;24;0;0;0;0;100;0;Salix
+106;P5bC26;5;O. bicornis;cherry;43576;O. cornuta;26;0;0;0;0;100;0;Salix
+107;P5bC27;5;O. bicornis;cherry;43576;O. cornuta;27;0;0;0;0;100;0;Salix
+108;P5bC28;5;O. bicornis;cherry;43578;O. bicornis;28;0.8;0;99.2;0;0;0;Quercus
+109;P5bC29;5;O. bicornis;cherry;43578;O. bicornis;29;0;0;100;0;0;0;Quercus
+112;P5bC32;5;O. bicornis;cherry;43578;O. cornuta;32;0;92.8057554;0;0;6.474820144;0.71942446; Rosacea
+113;P5bC4;5;O. bicornis;cherry;43564;O. cornuta;4;0;100;0;0;0;0; Rosacea
+114;P5bC5;5;O. bicornis;cherry;43564;O. cornuta;5;0;100;0;0;0;0; Rosacea
+115;P5bC6;5;O. bicornis;cherry;43564;O. cornuta;6;0;100;0;0;0;0; Rosacea
+116;P5bC7;5;O. bicornis;cherry;43568;O. cornuta;7;0;100;0;0;0;0; Rosacea
+117;P5bC8;5;O. bicornis;cherry;43568;O. cornuta;8;0;97.65258216;0;0;2.34741784;0; Rosacea
+119;P6bA1;6;O. bicornis;apple;43579;O. bicornis;1;0;6.896551724;93.10344828;0;0;0;Quercus
+120;P6bA10;6;O. bicornis;apple;43586;O. bicornis;10;99.2481203;0.751879699;0;0;0;0;Ranuculacea
+121;P6bA11;6;O. bicornis;apple;43586;O. bicornis;11;100;0;0;0;0;0;Ranuculacea
+122;P6bA12;6;O. bicornis;apple;43586;O. cornuta;12;0;99.15966387;0;0;0;0.840336134; Rosacea
+123;P6bA13;6;O. bicornis;apple;43586;O. cornuta;13;0;100;0;0;0;0; Rosacea
+124;P6bA14;6;O. bicornis;apple;43586;O. cornuta;14;0;100;0;0;0;0; Rosacea
+125;P6bA15;6;O. bicornis;apple;43586;O. cornuta;15;0;100;0;0;0;0; Rosacea
+126;P6bA16;6;O. bicornis;apple;43586;O. cornuta;16;0;100;0;0;0;0; Rosacea
+128;P6bA3;6;O. bicornis;apple;43579;O. bicornis;3;0;13.63636364;86.36363636;0;0;0;Quercus
+129;P6bA4;6;O. bicornis;apple;43579;O. cornuta;4;0;100;0;0;0;0; Rosacea
+130;P6bA5;6;O. bicornis;apple;43579;O. cornuta;5;0;100;0;0;0;0; Rosacea
+131;P6bA6;6;O. bicornis;apple;43579;O. cornuta;6;0;100;0;0;0;0; Rosacea
+132;P6bA7;6;O. bicornis;apple;43586;O. bicornis;7;0;0;100;0;0;0;Quercus
+133;P6bA8;6;O. bicornis;apple;43586;O. bicornis;8;0;4.444444444;95.55555556;0;0;0;Quercus
+134;P6bA9;6;O. bicornis;apple;43586;O. bicornis;9;0;0;100;0;0;0;Quercus
+135;P6cA1;6;O. cornuta;apple;43575;O. cornuta;1;0;93.41317365;0;0;6.586826347;0; Rosacea
+136;P6cA2;6;O. cornuta;apple;43575;O. cornuta;2;0;96.75324675;0;0;1.298701299;1.948051948; Rosacea
+137;P6cA3;6;O. cornuta;apple;43575;O. cornuta;3;0;100;0;0;0;0; Rosacea
+138;P6cA4;6;O. cornuta;apple;43577;O. cornuta;4;0;89.92805755;0;0;0;10.07194245; Rosacea
+139;P6cA5;6;O. cornuta;apple;43577;O. cornuta;5;0;100;0;0;0;0; Rosacea
+140;P6cA6;6;O. cornuta;apple;43577;O. cornuta;6;0;96.36363636;0;0;0.909090909;2.727272727; Rosacea
+141;P6cA7;6;O. cornuta;apple;43579;O. cornuta;7;0;100;0;0;0;0; Rosacea
+142;P6cA8;6;O. cornuta;apple;43579;O. cornuta;8;0;100;0;0;0;0; Rosacea
+143;P6cA9;6;O. cornuta;apple;43579;O. cornuta;9;0;100;0;0;0;0; Rosacea
+144;P7bA1;7;O. bicornis;apple;43586;O. bicornis;1;100;0;0;0;0;0;Ranuculacea
+145;P7bA10;7;O. bicornis;apple;43586;O. cornuta;10;0;100;0;0;0;0; Rosacea
+146;P7bA2;7;O. bicornis;apple;43586;O. bicornis;2;0;5.504587156;94.49541284;0;0;0;Quercus
+148;P7bA4;7;O. bicornis;apple;43586;O. bicornis;4;97.08737864;2.912621359;0;0;0;0;Ranuculacea
+149;P7bA5;7;O. bicornis;apple;43586;O. bicornis;5;100;0;0;0;0;0;Ranuculacea
+150;P7bA6;7;O. bicornis;apple;43586;O. cornuta;6;0;100;0;0;0;0; Rosacea
+151;P7bA7;7;O. bicornis;apple;43586;O. cornuta;7;0;100;0;0;0;0; Rosacea
+152;P7bA8;7;O. bicornis;apple;43586;O. cornuta;8;2.298850575;97.70114943;0;0;0;0; Rosacea
+153;P7bA9;7;O. bicornis;apple;43586;O. cornuta;9;0;97.26027397;2.739726027;0;0;0; Rosacea
+154;P7cA2;7;O. cornuta;apple;43575;O. cornuta;2;0;4.848484848;0;0;94.54545455;0.606060606;Salix
+155;P7cA3;7;O. cornuta;apple;43575;O. cornuta;3;0;100;0;0;0;0; Rosacea
+156;P7cA4;7;O. cornuta;apple;43577;O. cornuta;4;0;100;0;0;0;0; Rosacea
+157;P7cA5;7;O. cornuta;apple;43577;O. cornuta;5;0;100;0;0;0;0; Rosacea
+158;P7cA6;7;O. cornuta;apple;43577;O. cornuta;6;0;100;0;0;0;0; Rosacea
+159;P7cA7;7;O. cornuta;apple;43579;O. cornuta;7;0;99.5049505;0;0;0;0.495049505; Rosacea
+160;P7cA8;7;O. cornuta;apple;43579;O. cornuta;8;0;94.01709402;0;0;5.982905983;0; Rosacea
+161;P7cA9;7;O. cornuta;apple;43579;O. cornuta;9;0;100;0;0;0;0; Rosacea
+162;P9bC1;9;O. bicornis;cherry;43579;O. bicornis;1;96.8;0.8;2.4;0;0;0;Ranuculacea
+163;P9bC2;9;O. bicornis;cherry;43579;O. bicornis;2;4.716981132;2.830188679;0.943396226;0;90.56603774;0.943396226;Salix
+164;P9bC3;9;O. bicornis;cherry;43579;O. cornuta;3;80.64516129;0;0;0;19.35483871;0;Ranuculacea
+166;P9bC5;9;O. bicornis;cherry;43579;O. cornuta;5;0;5.833333333;0;0;93.33333333;0.833333333;Salix
+167;P9bC6;9;O. bicornis;cherry;43579;O. cornuta;6;0;98.0952381;0;0;0.952380952;0.952380952; Rosacea
+168;P9cC1;9;O. cornuta;cherry;43575;O. cornuta;1;0;92.30769231;0;0;0;7.692307692; Rosacea
+169;P9cC2;9;O. cornuta;cherry;43575;O. cornuta;2;0;1.818181818;0;0;98.18181818;0;Salix
+170;P9cC3;9;O. cornuta;cherry;43575;O. cornuta;3;0;100;0;0;0;0; Rosacea
+171;P9cC4;9;O. cornuta;cherry;43575;O. cornuta;4;0;100;0;0;0;0; Rosacea
+172;P9cC5;9;O. cornuta;cherry;43575;O. cornuta;5;0;79.66101695;0;14.40677966;5.93220339;0; Rosacea
+174;P9cC7;9;O. cornuta;cherry;43577;O. cornuta;7;0;0;0;100;0;0;Crucifera
+175;P9cC8;9;O. cornuta;cherry;43577;O. cornuta;8;0;0;0;100;0;0;Crucifera
+176;P9cC9;9;O. cornuta;cherry;43577;O. cornuta;9;0;96.33027523;0;1.834862385;1.834862385;0; Rosacea
