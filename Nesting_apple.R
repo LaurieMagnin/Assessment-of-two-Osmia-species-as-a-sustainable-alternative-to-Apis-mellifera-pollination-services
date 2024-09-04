@@ -2,7 +2,9 @@ Nesting_apple <- read.csv("~/working/Article_Osmia/Nesting_appleD.csv", sep=";")
 attach(Nesting_apple)
 names(Nesting_apple)
 
+library(tidyr)
 library(ggplot2)
+library(dplyr)
 
 GG<-ggplot(Nesting_apple, aes(x=reorder(Day, Cumulated_nesting.bee), y=Cumulated_nesting.bee, fill=Introduced_bee))+ 
   geom_boxplot(position=position_dodge(width=1))+ scale_y_continuous(name="Cumulated number of nesting bees")+ xlab("day after introduction")+ 
@@ -18,11 +20,31 @@ GS+ scale_color_manual(values=c("purple","green4"),name="Spillover of bee")
 
 Nesting_apple <- gather(Nesting_apple, "bee", "cumulated_nesting", 8|10) 
 
+# 2024 19 04 new figure 
+Nesting_apple_bicornis <- subset(Nesting_apple, Nesting_apple$Introduced_bee == "bicornis")
+Nesting_apple_bicornis$Nb_nesting_bee <-  Nesting_apple_bicornis$nb_bicornis_nesting
+Nesting_apple_cornuta <- subset(Nesting_apple, Nesting_apple$Introduced_bee == "cornuta")
+Nesting_apple_cornuta$Nb_nesting_bee <-  Nesting_apple_cornuta$nb_cornuta_nesting
+
+Nesting_apple <-rbind(Nesting_apple_bicornis, Nesting_apple_cornuta)
+
 Nesting_apple_average <-Nesting_apple %>%                                 # Group data
-  group_by(Introduced_bee, Day, bee) %>%
-  dplyr::summarize(average = mean(cumulated_nesting), sd = sd(cumulated_nesting), n = n(),
+  group_by(Introduced_bee, Day) %>%
+  dplyr::summarize(average = mean(Cumulated_nesting.bee), sd = sd(Cumulated_nesting.bee), n = n(),
                    se = sd / sqrt(n)) %>% 
   as.data.frame()
+
+plot1<-ggplot(Nesting_apple_average, aes(x=reorder(Day,average), y=average, fill=Introduced_bee)) + 
+  geom_bar(stat="identity", color="black", position=position_dodge()) +
+  geom_errorbar(aes(ymin=average-se, ymax=average+se), width=.2,
+                position=position_dodge(.9)) + ylim(0,300)
+
+
+Bicornis <- plot1+labs(x="Day after introduction", y = "Cumulated number of nesting bees") + 
+  theme_classic() +
+  scale_fill_manual(values=c('#999999','#69b3a2' ))
+
+Bicornis
 
 Nesting_apple_average_bicornis <- subset(Nesting_apple_average, Nesting_apple_average$Introduced_bee == "bicornis")
 
@@ -115,6 +137,3 @@ wilcox.test(Cumulated_nesting.bee~Introduced_bee, data=Nesting_apple_2, exact = 
 
 model1<-glm(Cumulated_nesting.bee~Introduced_bee+Day+Introduced_bee*Day, family="poisson", data=Nesting_apple)
 summary(model1)
-
-
-
