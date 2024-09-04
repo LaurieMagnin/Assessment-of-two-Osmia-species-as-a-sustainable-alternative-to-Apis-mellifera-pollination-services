@@ -12,7 +12,7 @@ ggplot(visit_tree, aes(x=Specie, y=Average_time.flower)) +
   xlab("Specie")
 
 
-########################################### Plot the time/flower per species ###########################
+########################################### Plot the time/flower per species APPLE ###########################
 
 
 apple_visit<-subset(visit_tree, visit_tree$Tree%in%"apple") #Selection of apple orchard observations
@@ -26,6 +26,35 @@ P=ggplot(apple_visit_Selected, aes(x=Specie, y=Average_time.flower)) +
 
 
 P+text( c(1:nlevels(apple_visit_Selected$Specie)) , P$stats[nrow(P$stats) , ]+0.5 , paste("n = ",table(apple_visit_Selected$Specie),sep=""))
+
+##############################################Analyse stat###############################################
+##############ANOVA assumptiom check
+
+shapiro.test(Average_time.flower[Specie=="A.mellifera"])
+shapiro.test(Average_time.flower[Specie=="O.cornutaF"])
+shapiro.test(Average_time.flower[Specie=="Bombus"])
+shapiro.test(Average_time.flower[Specie=="O.bicornisF"]) #ANOVA assumption not met ==> non-parametric test 
+
+############## Kruscal Wallis test 
+
+kruskal.test(Average_time.flower~Specie) #significant ==>pairwise comparison
+
+pairwise.wilcox.test(Average_time.flower,Specie,p.adjust.method = "BH")
+
+########################################### Plot the time/flower per species CHERRY ###########################
+
+
+cherry_visit<-subset(visit_tree, visit_tree$Tree%in%"cherry") #Selection of cherry orchard observations
+cherry_visit_Selected<-subset(cherry_visit,cherry_visit$Specie%in% c("A.mellifera", "B.terrestris","O.bicornis","O.cornuta")) #Selection of species 
+attach(cherry_visit_Selected)
+names(cherry_visit_Selected)
+
+P=ggplot(cherry_visit_Selected, aes(x=Specie, y=Average_time.flower)) + 
+  geom_boxplot() + scale_y_continuous(name="Time per flower visit (s)",limits=c(0,15))+ xlab("Species")+
+  theme(panel.border = element_blank(),panel.background = element_blank(),axis.line.y = element_line(colour = "grey"), panel.grid.major.y = element_line(size = 0.5, linetype = 'solid',colour = "grey"))
+
+
+P+text( c(1:nlevels(cherry_visit_Selected$Specie)) , P$stats[nrow(P$stats) , ]+0.5 , paste("n = ",table(cherry_visit_Selected$Specie),sep=""))
 
 ##############################################Analyse stat###############################################
 ##############ANOVA assumptiom check
